@@ -1,0 +1,56 @@
+body {
+  font-family: Star Wars, sans-serif;
+  text-align: center;
+  background-image: url(https://t4.ftcdn.net/jpg/01/97/94/41/360_F_197944144_hkdj580hGg9wcY5CJTKHALP97fMX32Jb.jpg);
+  background-size: cover;
+  background-position: center;
+  color: yellow;
+  font-weight: 10;
+}
+
+
+
+h1 {
+  margin-top: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sqr {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 20px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: crosshair;
+}
+
+.sqr:hover {
+  background: #f0f0f0;
+}
+
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: blue;
+}
